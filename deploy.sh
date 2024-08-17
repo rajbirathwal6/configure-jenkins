@@ -29,9 +29,7 @@ sudo systemctl enable jenkins
 
 # Start Jenkins service
 sudo systemctl start jenkins
-
-# Check Jenkins service status
-sudo systemctl status jenkins
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 
